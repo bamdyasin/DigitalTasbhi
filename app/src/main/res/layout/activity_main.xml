@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff00ff"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        >
+        <TextView
+            android:id="@+id/tvlearn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvlearn"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tvcountview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/num"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="130dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+ add"
+                android:layout_margin="2dp"
+                />
+            <Button
+                android:id="@+id/btnreset"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="reset"
+                android:layout_margin="2dp"
+                />
+            <Button
+                android:id="@+id/btnsub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="- sub"
+                android:layout_margin="2dp"
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btncount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="count"
+            android:textSize="80sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Digital Tasbhi</string>
+    <string name="tvlearn">Click Here To Learn about Counting Tasbhi.</string>
+    <string name="btn">learn</string>
+    <string name="num">000</string>
+
+</resources>
